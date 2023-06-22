@@ -1,0 +1,166 @@
+/* Global styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Geologica', sans-serif;
+}
+/* Entire body tag */
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #4b5157;
+}
+/* Main container */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* Leap Year Finder header */
+.header{
+    margin-top: 25px;
+    margin-left: 255px;
+    font-size: 52px;
+    color: #FFC300 ;
+}
+/* Main background box */
+.mainBgBox {
+    width: 900px;
+    height: 500px;
+    margin-top: 65px;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 900;
+    background-color: #2e3135;
+}
+/* input box  */
+.inputBox{
+    width: 364px;
+    height: 35px;
+    margin-top: 126px;
+    margin-left: -794px;
+    padding: 8px;
+    border: none;
+    border-radius: 11px;
+    color: #ffff;
+    background-color: #1f2025;
+}
+/* added these styles to remove up & down arrows from input box */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.calenderImage{
+    width: 30px;
+    height: 30px;
+    margin-top: 127px;
+    margin-right: 806px;
+    margin-left: -412px;
+}
+/* check button  */
+button{
+    width: 110px;
+    height:31px;
+    margin-top: 192px;
+    margin-left: -236px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #ffff;
+    background-color: #df2839;
+}
+/* Left side box */
+.leftBox{
+    width: 350px;
+    height: 420px;
+    margin-top: 63px;
+    margin-left: -484px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 950;
+    background-color: #1f2025;
+}
+/* What is leap year finder title  */
+.title{
+    margin-top: 35px;
+    margin-left: 26px;
+    font-size: 23px;
+    color: #f9fafa;
+}
+/* Info about Leap Year */
+.para{
+    margin: 23px 20px 10px 20px;
+    padding-right: 2px;
+    font-size: 20px;
+    color: #f9fafa;
+}
+/* entered year is leap year success */
+.leapYear{
+    width: 408px;
+    height: 90px;
+    margin-top: 179px;
+    margin-left: 387px;
+    padding: 18px 0px 10px 24px;
+    border-radius: 15px;
+    z-index: 950;
+    position: absolute;
+    color: #004b23;
+    background: #B0DB7D;
+}
+/* entered year is leap year fails */
+.notLeapYear{
+    width: 408px;
+    height: 90px;
+    margin-top: 179px;
+    margin-left: 387px;
+    padding: 18px 0px 10px 19px;
+    border-radius: 15px;
+    z-index: 950;
+    position: absolute;
+    color: #700000;
+    background: #db7d7d;
+}
+/* hidden property of the success or error messages  */
+.hidden{
+    display: none;
+}
+.errorMsg{
+    margin-top: -71px;
+    margin-left: 428px;
+    position: absolute;
+    z-index: 950;
+    color: #ff9a9a;
+}
+.next-leap-year-box{
+    width: 275px;
+    height: 110px;
+    margin-top: -123px;
+    margin-left: 371px;
+    padding: 10px;
+    border-radius: 15px;
+    z-index: 950;
+    color: #f9fafa;
+    background-color: #1f2025;
+}
+/* title of next leap year  */
+.leap-year-title{
+    margin-top: -11px;
+    margin-left: 37px;
+    padding: 10px;
+    font-size: 22px;
+    color: #f9fafa;
+}
+/* year shown in nextLeapYear  */
+.year{
+    margin-top: -12px;
+    margin-left: 59px;
+    padding: 10px;
+    font-size: 50px;
+    color: #f9fafa;
+}
